@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	outline: 1px dotted lime;
+}
+div.container {
+	width: 970px;
+	height: 702px;
+}
+	div.TopHeader {
+		width: 970px;
+		height: 75px;
+	}
+		.TopHeader img, .TopHeader p {
+			display: inline-block;
+		}
+		.TopHeader p {
+			vertical-align: top;
+			margin-left: 355px;
+			margin-top: 30px;
+		}
+	div.NavBar {
+		width: 970px;
+		height: 30px;
+		margin-bottom: 25px;
+	}
+	div.Content-Container {
+		/*background-color: blue;*/
+		height: 572px;
+	}
+		div.Building {
+			width: 970px;
+			height: 261px;
+			display: inline-block;
+			margin-left: 35px;
+			margin-top: 15px;
+		}
+			div.AboutPCC {
+				width: 523px;
+				height: 253px;
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 10px;
+			}
+				.About {
+					width: 523px;
+					height: 30px;
+					background-color: yellow;
+				}
+		div.BelowBuilding {
+			width: 970px;
+			height: 30px;
+		}
+		div.A-C-I-D {
+			width: 970px;
+			height: 250px;
+			display: inline-block;
+		}
+			.Automotive {
+				width: 210px;
+				height: 250px;
+				margin-left: 30px;
+			}
+			.Commercial {
+				width: 210px;
+				height: 250px;
+				margin-left: 20px;
+			}
+			.Industrial {
+				width: 210px;
+				height: 250px;
+				margin-left: 20px;
+			}
+			.Diesel {
+				width: 210px;
+				height: 250px;
+				margin-left: 20px;
+			}
+			.Automotive, .Commercial, .Industrial, .Diesel {
+				display: inline-block;
+			}
+
